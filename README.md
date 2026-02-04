@@ -29,3 +29,9 @@ Learning by building is where real progress happens
 </p>
 
 ---
+
+## 📁 Projects
+
+<!-- START_REPOS_LIST -->
+<!-- END_REPOS_LIST -->
+
