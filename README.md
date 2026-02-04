@@ -10,9 +10,8 @@ Learning by building is where real progress happens
 
 ## 📊 GitHub Stats
 
-<p align="center"> 
-  <img src="https://github-readme-stats.vercel.app/api?username=timbornemann&show_icons=true&theme=dark&count_private=true&hide_border=true&rank_icon=github" width="48%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=timbornemann&layout=compact&theme=dark&hide_border=true" width="48%"/>
+<p align="center">
+  <img src="https://github.com/timbornemann/timbornemann/blob/main/github-metrics.svg" alt="Metrics" width="100%">
 </p>
 
 ---
