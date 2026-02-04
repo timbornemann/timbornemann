@@ -20,13 +20,10 @@ Learning by building is where real progress happens
 
 <p align="center">
   <sub>
-    C# • Java • C • C++ • Python • PHP • JavaScript • SQL • Bash • R  
-    .NET • Laravel • TailwindCSS • Bootstrap • Django • Selenium • Swagger  
-    SQL • Docker • Apache • Node.js • Composer • Maven  
-    Git • GitHub • GitHub Actions • Postman  
-    Android Studio • Arduino • ESP32 • Raspberry Pi  
+    HTML • CSS • SCSS/LESS • JavaScript • TypeScript • React • Node.js • PHP • Java • Kotlin • Python • C# • Rust • SQL • .NET MAUI • XAML • XML • Capacitor • Tauri • Arduino C/C++ • Docker • Nginx • Maven • Gradle • Bash • PowerShell • Batch • Inno Setup • TOML
   </sub>
 </p>
+
 
 ---
 
