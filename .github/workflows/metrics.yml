@@ -1,10 +1,9 @@
 name: Metrics
 on:
-  # Update alle 24 Stunden
-  schedule: [{cron: "0 0 * * *"}]
-  # Oder manuell triggern
+  schedule: [{ cron: "0 0 * * *" }]
   workflow_dispatch:
-  push: {branches: ["master", "main"]}
+  push: { branches: ["master", "main"] }
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -13,6 +12,33 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: timbornemann
-          template: classic
-          base: header, activity, community, repositories, metadata
+
+          template: repository
           config_timezone: Europe/Berlin
+
+          base: header, activity, community, repositories, metadata
+
+          # Optik
+          config_display: large
+          config_octicon: yes
+          config_padding: 0, 8%
+          config_animations: yes
+
+          # Sprachen (sehr beliebt)
+          plugin_languages: yes
+          plugin_languages_ignored: html, css
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
+
+          # Streak
+          plugin_streak: yes
+
+          # Achievements
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: C
+
+          # “Contrib”-Visual (sieht stark aus)
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
