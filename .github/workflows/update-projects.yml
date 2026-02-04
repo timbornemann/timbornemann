@@ -1,0 +1,23 @@
+name: Update Projects List
+on:
+  schedule:
+    - cron: "0 0 * * *"  # täglich Mitternacht
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run README Repos List
+        uses: koj-co/readme-repos-list@v1.3.2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          query: "user:timbornemann sort:updated-desc" # listet deine Repos nach Aktualität
+          path: README.md
+          start: "<!-- START_REPOS_LIST -->"
+          end: "<!-- END_REPOS_LIST -->"
+          prefix: "\n"  # optional: Leerzeile vor Liste
+          max: 20       # maximale Anzahl gelisteter Repos
