@@ -19,49 +19,50 @@ jobs:
         with:
           script: |
             const username = context.repo.owner;
-            
+
             // 1. Repos holen (Maximal 100, sortiert nach Update)
             const repos = await github.paginate(github.rest.repos.listForUser, {
-              username: username,
-              sort: 'updated',
-              direction: 'desc',
+              username,
+              sort: "updated",
+              direction: "desc",
               per_page: 100,
-              type: 'owner' // Nur eigene Repos, keine Forks (falls gewollt)
+              type: "owner" // Nur eigene Repos, keine Forks
             });
 
             // 2. Filtern: Keine Forks, keine archivierten, und NICHT das Profil-Repo selbst
             const filteredRepos = repos
               .filter(r => !r.fork && !r.archived && r.name !== username)
-              .slice(0, 20); // Nimm die Top 20
+              .slice(0, 20); // Top 20
 
             // 3. Markdown Liste bauen
             let markdownContent = "";
-            
             for (const repo of filteredRepos) {
               const description = repo.description ? ` - ${repo.description}` : "";
-              // Format: - [Name](Link) - Beschreibung
-              // Alternativ für Fettdruck: ` - **[${repo.name}](${repo.html_url})**${description}`
               markdownContent += `- [**${repo.name}**](${repo.html_url})${description}\n`;
             }
 
-            // 4. In die README schreiben
-            const fs = require('fs');
-            const readmePath = 'README.md';
-            const readme = fs.readFileSync(readmePath, 'utf8');
-            
-            const startTag = '';
-            const endTag = '';
-            
+            // 4. In die README schreiben (zwischen Markern ersetzen)
+            const fs = require("fs");
+            const readmePath = "README.md";
+            const readme = fs.readFileSync(readmePath, "utf8");
+
+            const startTag = "<!-- START_PROJECTS -->";
+            const endTag   = "<!-- END_PROJECTS -->";
+
             const startIndex = readme.indexOf(startTag);
             const endIndex = readme.indexOf(endTag);
-            
-            if (startIndex !== -1 && endIndex !== -1) {
-              const newReadme = readme.slice(0, startIndex + startTag.length) + 
-                                "\n" + markdownContent + 
-                                readme.slice(endIndex);
-              fs.writeFileSync(readmePath, newReadme);
+
+            if (startIndex !== -1 && endIndex !== -1 && endIndex > startIndex) {
+              const before = readme.slice(0, startIndex + startTag.length);
+              const after  = readme.slice(endIndex); // enthält endTag + Rest der Datei
+
+              const newReadme =
+                `${before}\n${markdownContent}${after}`;
+
+              fs.writeFileSync(readmePath, newReadme, "utf8");
             } else {
-              console.log("Platzhalter nicht gefunden!");
+              console.log("Platzhalter nicht gefunden oder Reihenfolge falsch!");
+              process.exit(1);
             }
 
       - name: Commit & Push changes
@@ -69,6 +70,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          # Nur committen, wenn sich was geändert hat
           git commit -m "Update project list" || exit 0
           git push
