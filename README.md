@@ -20,9 +20,11 @@ Learning by building is where real progress happens
 
 <p align="center">
   <sub>
-    HTML • CSS • SCSS/LESS • JavaScript • TypeScript • React • Node.js • PHP • Java • Kotlin • Python • C# • Rust • SQL • .NET MAUI • XAML • XML • Capacitor • Tauri • Arduino C/C++ • Docker • Nginx • Maven • Gradle • Bash • PowerShell • Batch • Inno Setup • TOML
+    C# • .NET MAUI • Java • Kotlin • Python • TypeScript • React • Node.js • PHP • Rust • Docker • SQL • HTML • CSS • JavaScript • Android • Embedded C/C++
   </sub>
 </p>
+
+
 
 
 ---
