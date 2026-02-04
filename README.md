@@ -30,7 +30,7 @@ Learning by building is where real progress happens
 
 ---
 
-## 📂 Meine Projekte
+## 📂 Projects
 <!-- START_PROJECTS -->
 - [**Tippsy-Tries-Typing**](https://github.com/timbornemann/Tippsy-Tries-Typing) - Web-based touch typing trainer – QWERTZ & QWERTY, English & German. Learn with a guided path and the companion Tippsy.
 - [**mathe-erklaerer**](https://github.com/timbornemann/mathe-erklaerer) - mathe erklärer 
