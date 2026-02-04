@@ -31,3 +31,5 @@ Learning by building is where real progress happens
 ---
 
 ## 📂 Meine Projekte
+<!-- START_PROJECTS -->
+<!-- END_PROJECTS -->
