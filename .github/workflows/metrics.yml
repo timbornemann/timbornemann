@@ -1,0 +1,18 @@
+name: Metrics
+on:
+  # Update alle 24 Stunden
+  schedule: [{cron: "0 0 * * *"}]
+  # Oder manuell triggern
+  workflow_dispatch:
+  push: {branches: ["master", "main"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: timbornemann
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Europe/Berlin
