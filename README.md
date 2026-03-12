@@ -31,6 +31,7 @@ Learning by building is where real progress happens
 
 ## 📂 Projects
 <!-- START_PROJECTS -->
+- [**Open-Git-Control**](https://github.com/timbornemann/Open-Git-Control) - Modern desktop Git client built with Electron and React for visual repository management, commit history exploration, and integrated GitHub workflows.
 - [**mathe-erklaerer**](https://github.com/timbornemann/mathe-erklaerer) - mathe erklärer 
 - [**Tippsy-Tries-Typing**](https://github.com/timbornemann/Tippsy-Tries-Typing) - Web-based touch typing trainer – QWERTZ & QWERTY, English & German. Learn with a guided path and the companion Tippsy.
 - [**Rotor-Interface-GS232B**](https://github.com/timbornemann/Rotor-Interface-GS232B)
