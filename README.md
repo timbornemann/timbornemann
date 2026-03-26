@@ -32,8 +32,8 @@ Learning by building is where real progress happens
 ## 📂 Projects
 <!-- START_PROJECTS -->
 - [**Open-Git-Control**](https://github.com/timbornemann/Open-Git-Control) - Modern desktop Git client built with Electron and React for visual repository management, commit history exploration, and integrated GitHub workflows.
-- [**mathe-erklaerer**](https://github.com/timbornemann/mathe-erklaerer) - mathe erklärer 
 - [**Tippsy-Tries-Typing**](https://github.com/timbornemann/Tippsy-Tries-Typing) - Web-based touch typing trainer – QWERTZ & QWERTY, English & German. Learn with a guided path and the companion Tippsy.
+- [**mathe-erklaerer**](https://github.com/timbornemann/mathe-erklaerer) - mathe erklärer 
 - [**Rotor-Interface-GS232B**](https://github.com/timbornemann/Rotor-Interface-GS232B)
 - [**Password-Phrase-Producer**](https://github.com/timbornemann/Password-Phrase-Producer) - A versatile tool for generating secure passwords with various customizable modes, including complex patterns based on user input.
 - [**Income-Insight-Engine**](https://github.com/timbornemann/Income-Insight-Engine) - The Income Insight Engine is a tool designed to assist with personal finance management. It offers straightforward functionality for tracking and analyzing income and expenses
