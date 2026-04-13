@@ -4,7 +4,7 @@ Public GitHub projects by [@timbornemann](https://github.com/timbornemann).
 Updated: 2026-04-13
 
 ## Open-Git-Control
-![Open-Git-Control screenshot placeholder](/images/open-git-control.png)
+![Open-Git-Control screenshot](/images/open-git-control.png)
 
 A modern desktop Git client built with Electron and React for fast local workflows.  
 It combines visual history and diff tooling with conflict resolution, GitHub integration, CI visibility, security checks, and optional AI-assisted commit/release workflows.
@@ -14,7 +14,7 @@ It combines visual history and diff tooling with conflict resolution, GitHub int
 ---
 
 ## Password-Phrase-Producer
-![Password-Phrase-Producer screenshot placeholder](/images/password-phrase-producer.png)
+![Password-Phrase-Producer screenshot](/images/password-phrase-producer.png)
 
 A cross-platform .NET MAUI security app for generating strong passwords and passphrases with multiple methods and entropy scoring.  
 It also includes encrypted vaults, optional biometric protection, and an integrated TOTP authenticator with QR support.
@@ -24,7 +24,7 @@ It also includes encrypted vaults, optional biometric protection, and an integra
 ---
 
 ## Rotor-Interface-GS232B
-![Rotor-Interface-GS232B screenshot placeholder](/images/Rotor-Interface-GS232B.png)
+![Rotor-Interface-GS232B screenshot](/images/Rotor-Interface-GS232B.png)
 
 A web-based control interface for GS-232B-compatible rotor controllers with a Python backend.  
 It offers REST and WebSocket APIs, multi-client synchronization, route execution, and serial communication handling for practical hardware control.
@@ -34,7 +34,7 @@ It offers REST and WebSocket APIs, multi-client synchronization, route execution
 ---
 
 ## Tippsy-Tries-Typing
-![Tippsy-Tries-Typing screenshot placeholder](/images/tippsy-tries-typing.png)
+![Tippsy-Tries-Typing screenshot](/images/tippsy-tries-typing.png)
 
 A web-based touch typing trainer with support for QWERTZ and QWERTY layouts in German and English.  
 It focuses on guided progression, interactive practice, and clear performance tracking with metrics such as WPM, accuracy, and stage progress.
@@ -44,7 +44,7 @@ It focuses on guided progression, interactive practice, and clear performance tr
 ---
 
 ## Total-Task-Tracker
-![Total-Task-Tracker screenshot placeholder](/images/total-task-tracker.png)
+![Total-Task-Tracker screenshot](/images/total-task-tracker.png)
 
 A local-first productivity and study platform built with React, Node.js, and SQLite.  
 It combines task management, recurring workflows, calendar planning, markdown notes, Pomodoro timing, and spaced-repetition flashcards in one self-hostable app.
@@ -54,7 +54,7 @@ It combines task management, recurring workflows, calendar planning, markdown no
 ---
 
 ## Simple-Sip-Scheduler
-![Simple-Sip-Scheduler screenshot placeholder](/images/simple-sip-scheduler.png)
+![Simple-Sip-Scheduler screenshot](/images/simple-sip-scheduler.png)
 
 A hydration tracking app for Wear OS with a clean, watch-first interface.  
 It supports daily goals, quick drink logging, progress statistics, optional reminders, and tile-based interaction from the watch face.
@@ -64,7 +64,7 @@ It supports daily goals, quick drink logging, progress statistics, optional remi
 ---
 
 ## Custom-Chart-Composer
-![Custom-Chart-Composer screenshot placeholder](/images/cusom-chart-composer.png)
+![Custom-Chart-Composer screenshot](/images/cusom-chart-composer.png)
 
 A modular chart-building suite for creating and customizing visualizations in a browser-based UI.  
 It supports many chart types, data import from tabular files, annotation workflows, and export options suitable for reports, dashboards, and presentations.
@@ -74,7 +74,7 @@ It supports many chart types, data import from tabular files, annotation workflo
 ---
 
 ## mathe-erklaerer
-![mathe-erklaerer screenshot placeholder](/images/mathe-erklaerer.png)
+![mathe-erklaerer screenshot](/images/mathe-erklaerer.png)
 
 An AI-assisted math tutor app focused on detailed, step-by-step explanations.  
 Users can solve tasks from text input or photos, render formulas clearly, and keep a local history while using their own Gemini API key.
@@ -84,7 +84,7 @@ Users can solve tasks from text input or photos, render formulas clearly, and ke
 ---
 
 ## Income-Insight-Engine
-![Income-Insight-Engine screenshot placeholder](/images/Income-Insight-Engine.png)
+![Income-Insight-Engine screenshot](/images/Income-Insight-Engine.png)
 
 A personal finance tracker designed to manage transactions and reveal spending patterns.  
 It includes filtering, grouping, analytical calculations, and CSV import workflows (including safe duplicate-aware imports) to support practical day-to-day budgeting.
@@ -94,7 +94,7 @@ It includes filtering, grouping, analytical calculations, and CSV import workflo
 ---
 
 ## FFR-Homepage
-![FFR-Homepage screenshot placeholder](/images/FFR-Hompage.png)
+![FFR-Homepage screenshot](/images/FFR-Hompage.png)
 
 The official website project for the volunteer fire department in Waldems Reichenbach.  
 It provides a structured, responsive information platform for operations, departments, events, downloads, and community outreach.
@@ -104,7 +104,7 @@ It provides a structured, responsive information platform for operations, depart
 ---
 
 ## Simple-Task-Manager
-![Simple-Task-Manager screenshot placeholder](https://placehold.co/1200x675/f3f4f6/1f2937?text=Simple-Task-Manager+Screenshot)
+![Simple-Task-Manager screenshot](/images/simple-task-manager.png)
 
 A simple console-based task manager concept written in C.  
 
@@ -114,7 +114,7 @@ A simple console-based task manager concept written in C.
 ---
 
 ## CSV-Analyser
-![CSV-Analyser screenshot placeholder](/images/csv-analyzer.png)
+![CSV-Analyser screenshot](/images/csv-analyzer.png)
 
 A Tauri + React desktop application for interactive CSV exploration and analysis.  
 The app includes virtualized table rendering for large datasets, quick and advanced filtering, sorting, grouping/aggregation workflows, and session state restoration.
@@ -124,7 +124,7 @@ The app includes virtualized table rendering for large datasets, quick and advan
 ---
 
 ## Docker-Dashboard
-![Docker-Dashboard screenshot placeholder](/images/docker-dashboard.png)
+![Docker-Dashboard screenshot](/images/DOCKER-DASHBOARD.png)
 
 A self-hosted dashboard for organizing local services, Docker containers, and ports in one place.  
 It includes automated service discovery, manual service management, drag-and-drop layout editing, and persistent metadata such as titles and icons.
@@ -134,6 +134,7 @@ It includes automated service discovery, manual service management, drag-and-dro
 ---
 
 ## LLM-Request-Rest-API-Modul
+![LLM-Request-Rest-API-Modul screenshot](/images/LLM-Request-Rest-API-Modul.png)
 
 A Java 17 REST API module developed as part of a university project within the Lernassistent ecosystem for connecting to both local and external LLMs.  
 It provides endpoints for model management and non-streaming response generation, with support for Ollama-based local models and Groq-backed remote inference.

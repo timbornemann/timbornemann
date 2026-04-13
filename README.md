@@ -1,4 +1,4 @@
-## Hi, I'm Tim 👋
+﻿## Hi, I'm Tim ðŸ‘‹
 
 I am a computer science student and developer who likes to build things that actually solve problems  
 
@@ -6,12 +6,9 @@ I am a computer science student and developer who likes to build things that act
 I enjoy understanding systems end to end experimenting with new technologies and turning ideas into working software  
 Learning by building is where real progress happens
 
-## Projects
-See all public GitHub projects here: [Projects.md](Projects.md)
-
 ---
 
-## 📊 GitHub Stats
+## ðŸ“Š GitHub Stats
 
 <p align="center">
   <img src="https://github.com/timbornemann/timbornemann/blob/main/github-metrics.svg" alt="Metrics" width="100%">
@@ -19,152 +16,26 @@ See all public GitHub projects here: [Projects.md](Projects.md)
 
 ---
 
-## 🔧 Technologies & Tools
+## ðŸ”§ Technologies & Tools
 
 <p align="center">
   <sub>
-    C# • .NET MAUI • Java • Kotlin • Python • TypeScript • React • Node.js • PHP • Rust • Docker • SQL • HTML • CSS • JavaScript • Android • Embedded C/C++
+    C# â€¢ .NET MAUI â€¢ Java â€¢ Kotlin â€¢ Python â€¢ TypeScript â€¢ React â€¢ Node.js â€¢ PHP â€¢ Rust â€¢ Docker â€¢ SQL â€¢ HTML â€¢ CSS â€¢ JavaScript â€¢ Android â€¢ Embedded C/C++
   </sub>
 </p>
 
-# Projects
-
-Public GitHub projects by [@timbornemann](https://github.com/timbornemann).  
-Updated: 2026-04-13
-
-## Open-Git-Control
-![Open-Git-Control screenshot placeholder](/images/open-git-control.png)
-
-A modern desktop Git client built with Electron and React for fast local workflows.  
-It combines visual history and diff tooling with conflict resolution, GitHub integration, CI visibility, security checks, and optional AI-assisted commit/release workflows.
-
-[View repository](https://github.com/timbornemann/Open-Git-Control)
 
 ---
 
-## Password-Phrase-Producer
-![Password-Phrase-Producer screenshot placeholder](/images/password-phrase-producer.png)
+## Project Gallery
 
-A cross-platform .NET MAUI security app for generating strong passwords and passphrases with multiple methods and entropy scoring.  
-It also includes encrypted vaults, optional biometric protection, and an integrated TOTP authenticator with QR support.
+| Project | Project | Project |
+|---|---|---|
+| [![Open-Git-Control](/images/open-git-control.png)](https://github.com/timbornemann/Open-Git-Control)<br>[Open-Git-Control](https://github.com/timbornemann/Open-Git-Control) | [![Password-Phrase-Producer](/images/password-phrase-producer.png)](https://github.com/timbornemann/Password-Phrase-Producer)<br>[Password-Phrase-Producer](https://github.com/timbornemann/Password-Phrase-Producer) | [![Rotor-Interface-GS232B](/images/Rotor-Interface-GS232B.png)](https://github.com/timbornemann/Rotor-Interface-GS232B)<br>[Rotor-Interface-GS232B](https://github.com/timbornemann/Rotor-Interface-GS232B) |
+| [![Tippsy-Tries-Typing](/images/tippsy-tries-typing.png)](https://github.com/timbornemann/Tippsy-Tries-Typing)<br>[Tippsy-Tries-Typing](https://github.com/timbornemann/Tippsy-Tries-Typing) | [![Total-Task-Tracker](/images/total-task-tracker.png)](https://github.com/timbornemann/Total-Task-Tracker)<br>[Total-Task-Tracker](https://github.com/timbornemann/Total-Task-Tracker) | [![Simple-Sip-Scheduler](/images/simple-sip-scheduler.png)](https://github.com/timbornemann/Simple-Sip-Scheduler)<br>[Simple-Sip-Scheduler](https://github.com/timbornemann/Simple-Sip-Scheduler) |
+| [![Custom-Chart-Composer](/images/cusom-chart-composer.png)](https://github.com/timbornemann/Custom-Chart-Composer)<br>[Custom-Chart-Composer](https://github.com/timbornemann/Custom-Chart-Composer) | [![mathe-erklaerer](/images/mathe-erklaerer.png)](https://github.com/timbornemann/mathe-erklaerer)<br>[mathe-erklaerer](https://github.com/timbornemann/mathe-erklaerer) | [![Income-Insight-Engine](/images/Income-Insight-Engine.png)](https://github.com/timbornemann/Income-Insight-Engine)<br>[Income-Insight-Engine](https://github.com/timbornemann/Income-Insight-Engine) |
+| [![FFR-Homepage](/images/FFR-Hompage.png)](https://github.com/timbornemann/FFR-Homepage)<br>[FFR-Homepage](https://github.com/timbornemann/FFR-Homepage) | [![Simple-Task-Manager](/images/simple-task-manager.png)](https://github.com/timbornemann/Simple-Task-Manager)<br>[Simple-Task-Manager](https://github.com/timbornemann/Simple-Task-Manager) | [![CSV-Analyser](/images/csv-analyzer.png)](https://github.com/timbornemann/CSV-Analyser)<br>[CSV-Analyser](https://github.com/timbornemann/CSV-Analyser) |
+| [![Docker-Dashboard](/images/DOCKER-DASHBOARD.png)](https://github.com/timbornemann/Docker-Dashboard)<br>[Docker-Dashboard](https://github.com/timbornemann/Docker-Dashboard) | [![LLM-Request-Rest-API-Modul](/images/LLM-Request-Rest-API-Modul.png)](https://github.com/timbornemann/LLM-Request-Rest-API-Modul)<br>[LLM-Request-Rest-API-Modul](https://github.com/timbornemann/LLM-Request-Rest-API-Modul) |   |
 
-[View repository](https://github.com/timbornemann/Password-Phrase-Producer)
-
----
-
-## Rotor-Interface-GS232B
-![Rotor-Interface-GS232B screenshot placeholder](/images/Rotor-Interface-GS232B.png)
-
-A web-based control interface for GS-232B-compatible rotor controllers with a Python backend.  
-It offers REST and WebSocket APIs, multi-client synchronization, route execution, and serial communication handling for practical hardware control.
-
-[View repository](https://github.com/timbornemann/Rotor-Interface-GS232B)
-
----
-
-## Tippsy-Tries-Typing
-![Tippsy-Tries-Typing screenshot placeholder](/images/tippsy-tries-typing.png)
-
-A web-based touch typing trainer with support for QWERTZ and QWERTY layouts in German and English.  
-It focuses on guided progression, interactive practice, and clear performance tracking with metrics such as WPM, accuracy, and stage progress.
-
-[View repository](https://github.com/timbornemann/Tippsy-Tries-Typing)
-
----
-
-## Total-Task-Tracker
-![Total-Task-Tracker screenshot placeholder](/images/total-task-tracker.png)
-
-A local-first productivity and study platform built with React, Node.js, and SQLite.  
-It combines task management, recurring workflows, calendar planning, markdown notes, Pomodoro timing, and spaced-repetition flashcards in one self-hostable app.
-
-[View repository](https://github.com/timbornemann/Total-Task-Tracker)
-
----
-
-## Simple-Sip-Scheduler
-![Simple-Sip-Scheduler screenshot placeholder](/images/simple-sip-scheduler.png)
-
-A hydration tracking app for Wear OS with a clean, watch-first interface.  
-It supports daily goals, quick drink logging, progress statistics, optional reminders, and tile-based interaction from the watch face.
-
-[View repository](https://github.com/timbornemann/Simple-Sip-Scheduler)
-
----
-
-## Custom-Chart-Composer
-![Custom-Chart-Composer screenshot placeholder](/images/cusom-chart-composer.png)
-
-A modular chart-building suite for creating and customizing visualizations in a browser-based UI.  
-It supports many chart types, data import from tabular files, annotation workflows, and export options suitable for reports, dashboards, and presentations.
-
-[View repository](https://github.com/timbornemann/Custom-Chart-Composer)
-
----
-
-## mathe-erklaerer
-![mathe-erklaerer screenshot placeholder](/images/mathe-erklaerer.png)
-
-An AI-assisted math tutor app focused on detailed, step-by-step explanations.  
-Users can solve tasks from text input or photos, render formulas clearly, and keep a local history while using their own Gemini API key.
-
-[View repository](https://github.com/timbornemann/mathe-erklaerer)
-
----
-
-## Income-Insight-Engine
-![Income-Insight-Engine screenshot placeholder](/images/Income-Insight-Engine.png)
-
-A personal finance tracker designed to manage transactions and reveal spending patterns.  
-It includes filtering, grouping, analytical calculations, and CSV import workflows (including safe duplicate-aware imports) to support practical day-to-day budgeting.
-
-[View repository](https://github.com/timbornemann/Income-Insight-Engine)
-
----
-
-## FFR-Homepage
-![FFR-Homepage screenshot placeholder](/images/FFR-Hompage.png)
-
-The official website project for the volunteer fire department in Waldems Reichenbach.  
-It provides a structured, responsive information platform for operations, departments, events, downloads, and community outreach.
-
-[View repository](https://github.com/timbornemann/FFR-Homepage)
-
----
-
-## Simple-Task-Manager
-![Simple-Task-Manager screenshot placeholder](https://placehold.co/1200x675/f3f4f6/1f2937?text=Simple-Task-Manager+Screenshot)
-
-A simple console-based task manager concept written in C.  
-
-
-[View repository](https://github.com/timbornemann/Simple-Task-Manager)
-
----
-
-## CSV-Analyser
-![CSV-Analyser screenshot placeholder](/images/csv-analyzer.png)
-
-A Tauri + React desktop application for interactive CSV exploration and analysis.  
-The app includes virtualized table rendering for large datasets, quick and advanced filtering, sorting, grouping/aggregation workflows, and session state restoration.
-
-[View repository](https://github.com/timbornemann/CSV-Analyser)
-
----
-
-## Docker-Dashboard
-![Docker-Dashboard screenshot placeholder](/images/docker-dashboard.png)
-
-A self-hosted dashboard for organizing local services, Docker containers, and ports in one place.  
-It includes automated service discovery, manual service management, drag-and-drop layout editing, and persistent metadata such as titles and icons.
-
-[View repository](https://github.com/timbornemann/Docker-Dashboard)
-
----
-
-## LLM-Request-Rest-API-Modul
-
-A Java 17 REST API module developed as part of a university project within the Lernassistent ecosystem for connecting to both local and external LLMs.  
-It provides endpoints for model management and non-streaming response generation, with support for Ollama-based local models and Groq-backed remote inference.
-
-[View repository](https://github.com/timbornemann/LLM-Request-Rest-API-Modul)
+## Projects
+See all public GitHub projects here: [Projects.md](Projects.md)
