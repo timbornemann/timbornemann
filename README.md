@@ -1,4 +1,4 @@
-﻿## Hi, I'm Tim ðŸ‘‹
+## Hi, I'm Tim 👋
 
 I am a computer science student and developer who likes to build things that actually solve problems  
 
@@ -8,7 +8,7 @@ Learning by building is where real progress happens
 
 ---
 
-## ðŸ“Š GitHub Stats
+## 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github.com/timbornemann/timbornemann/blob/main/github-metrics.svg" alt="Metrics" width="100%">
@@ -16,11 +16,11 @@ Learning by building is where real progress happens
 
 ---
 
-## ðŸ”§ Technologies & Tools
+## 🔧 Technologies & Tools
 
 <p align="center">
   <sub>
-    C# â€¢ .NET MAUI â€¢ Java â€¢ Kotlin â€¢ Python â€¢ TypeScript â€¢ React â€¢ Node.js â€¢ PHP â€¢ Rust â€¢ Docker â€¢ SQL â€¢ HTML â€¢ CSS â€¢ JavaScript â€¢ Android â€¢ Embedded C/C++
+    C# • .NET MAUI • Java • Kotlin • Python • TypeScript • React • Node.js • PHP • Rust • Docker • SQL • HTML • CSS • JavaScript • Android • Embedded C/C++
   </sub>
 </p>
 
