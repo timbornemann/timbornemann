@@ -1,7 +1,7 @@
 # Projects
 
 Public GitHub projects by [@timbornemann](https://github.com/timbornemann).  
-Updated: 2026-04-13
+Updated: 2026-07-16
 
 ## Open-Git-Control
 ![Open-Git-Control screenshot](/images/open-git-control.png)
@@ -13,13 +13,13 @@ It combines visual history and diff tooling with conflict resolution, GitHub int
 
 ---
 
-## Password-Phrase-Producer
-![Password-Phrase-Producer screenshot](/images/password-phrase-producer.png)
+## Local-Share
+![Local-Share screenshot](/images/local-share.png)
 
-A cross-platform .NET MAUI security app for generating strong passwords and passphrases with multiple methods and entropy scoring.  
-It also includes encrypted vaults, optional biometric protection, and an integrated TOTP authenticator with QR support.
+A small LAN web app for temporary file and text exchange.  
+It runs without accounts, a database, or persistent storage by default, supports expiring shares, optional passwords, browser previews, downloads, and Docker-based deployment.
 
-[View repository](https://github.com/timbornemann/Password-Phrase-Producer)
+[View repository](https://github.com/timbornemann/Local-Share)
 
 ---
 
@@ -46,50 +46,20 @@ It focuses on guided progression, interactive practice, and clear performance tr
 ## Total-Task-Tracker
 ![Total-Task-Tracker screenshot](/images/total-task-tracker.png)
 
-A local-first productivity and study platform built with React, Node.js, and SQLite.  
+A local productivity and study platform built with React, Node.js, and SQLite.  
 It combines task management, recurring workflows, calendar planning, markdown notes, Pomodoro timing, and spaced-repetition flashcards in one self-hostable app.
 
 [View repository](https://github.com/timbornemann/Total-Task-Tracker)
 
 ---
 
-## Simple-Sip-Scheduler
-![Simple-Sip-Scheduler screenshot](/images/simple-sip-scheduler.png)
+## Open-OCR-Control
+![Open-OCR-Control screenshot](/images/open-ocr-control.png)
 
-A hydration tracking app for Wear OS with a clean, watch-first interface.  
-It supports daily goals, quick drink logging, progress statistics, optional reminders, and tile-based interaction from the watch face.
+A local, GPU-accelerated document recognition workspace powered by Baidu Unlimited-OCR.  
+It accepts PDFs, images, and common Office documents, streams page-level OCR progress in the browser, and exports results as Markdown, plain text, or structured JSON.
 
-[View repository](https://github.com/timbornemann/Simple-Sip-Scheduler)
-
----
-
-## Custom-Chart-Composer
-![Custom-Chart-Composer screenshot](/images/cusom-chart-composer.png)
-
-A modular chart-building suite for creating and customizing visualizations in a browser-based UI.  
-It supports many chart types, data import from tabular files, annotation workflows, and export options suitable for reports, dashboards, and presentations.
-
-[View repository](https://github.com/timbornemann/Custom-Chart-Composer)
-
----
-
-## mathe-erklaerer
-![mathe-erklaerer screenshot](/images/mathe-erklaerer.png)
-
-An AI-assisted math tutor app focused on detailed, step-by-step explanations.  
-Users can solve tasks from text input or photos, render formulas clearly, and keep a local history while using their own Gemini API key.
-
-[View repository](https://github.com/timbornemann/mathe-erklaerer)
-
----
-
-## Income-Insight-Engine
-![Income-Insight-Engine screenshot](/images/Income-Insight-Engine.png)
-
-A personal finance tracker designed to manage transactions and reveal spending patterns.  
-It includes filtering, grouping, analytical calculations, and CSV import workflows (including safe duplicate-aware imports) to support practical day-to-day budgeting.
-
-[View repository](https://github.com/timbornemann/Income-Insight-Engine)
+[View repository](https://github.com/timbornemann/Open-OCR-Control)
 
 ---
 
@@ -103,21 +73,61 @@ It provides a structured, responsive information platform for operations, depart
 
 ---
 
-## Simple-Task-Manager
-![Simple-Task-Manager screenshot](/images/simple-task-manager.png)
+## mathe-erklaerer
+![mathe-erklaerer screenshot](/images/mathe-erklaerer.png)
 
-A simple console-based task manager concept written in C.  
+An AI-assisted math tutor app focused on detailed, step-by-step explanations.  
+Users can solve tasks from text input or photos, render formulas clearly, and keep a local history while using their own Gemini API key.
 
+[View repository](https://github.com/timbornemann/mathe-erklaerer)
 
-[View repository](https://github.com/timbornemann/Simple-Task-Manager)
+---
+
+## Custom-Chart-Composer
+![Custom-Chart-Composer screenshot](/images/cusom-chart-composer.png)
+
+A modular chart-building suite for creating and customizing visualizations in a browser-based UI.  
+It supports many chart types, data import from tabular files, annotation workflows, and export options suitable for reports, dashboards, and presentations.
+
+[View repository](https://github.com/timbornemann/Custom-Chart-Composer)
+
+---
+
+## Income-Insight-Engine
+![Income-Insight-Engine screenshot](/images/Income-Insight-Engine.png)
+
+A personal finance tracker designed to manage transactions and reveal spending patterns.  
+It includes filtering, grouping, analytical calculations, and CSV import workflows, including duplicate-aware imports for practical day-to-day budgeting.
+
+[View repository](https://github.com/timbornemann/Income-Insight-Engine)
+
+---
+
+## Simple-Sip-Scheduler
+![Simple-Sip-Scheduler screenshot](/images/simple-sip-scheduler.png)
+
+A hydration tracking app for Wear OS with a clean, watch-first interface.  
+It supports daily goals, quick drink logging, progress statistics, optional reminders, and tile-based interaction from the watch face.
+
+[View repository](https://github.com/timbornemann/Simple-Sip-Scheduler)
+
+---
+
+## time-log
+![time-log screenshot](/images/logbook.png)
+
+A local desktop time-tracking tool built with Tauri 2.  
+It combines stopwatch, countdown, Pomodoro, daily review, local data storage, desktop installers, and signed update packaging for Windows and macOS.
+
+[View repository](https://github.com/timbornemann/time-log)
 
 ---
 
 ## CSV-Analyser
 ![CSV-Analyser screenshot](/images/csv-analyzer.png)
 
-A Tauri + React desktop application for interactive CSV exploration and analysis.  
-The app includes virtualized table rendering for large datasets, quick and advanced filtering, sorting, grouping/aggregation workflows, and session state restoration.
+A Tauri and React desktop application for interactive CSV exploration and analysis.  
+The app includes virtualized table rendering for large datasets, quick and advanced filtering, sorting, grouping and aggregation workflows, and session state restoration.
 
 [View repository](https://github.com/timbornemann/CSV-Analyser)
 
@@ -140,3 +150,33 @@ A Java 17 REST API module developed as part of a university project within the L
 It provides endpoints for model management and non-streaming response generation, with support for Ollama-based local models and Groq-backed remote inference.
 
 [View repository](https://github.com/timbornemann/LLM-Request-Rest-API-Modul)
+
+---
+
+## Simple-Task-Manager
+![Simple-Task-Manager screenshot](/images/simple-task-manager.png)
+
+A simple console-based task manager concept written in C.  
+The project is presented as a lightweight command-line task management application.
+
+[View repository](https://github.com/timbornemann/Simple-Task-Manager)
+
+---
+
+## Password-Phrase-Producer
+![Password-Phrase-Producer screenshot](/images/password-phrase-producer.png)
+
+A cross-platform .NET MAUI security app for generating strong passwords and passphrases with multiple methods and entropy scoring.  
+It also includes encrypted vaults, optional biometric protection, and an integrated TOTP authenticator with QR support.
+
+[View repository](https://github.com/timbornemann/Password-Phrase-Producer)
+
+---
+
+## Routen-Dash
+![Routen-Dash screenshot](/images/Routen-Dash.png)
+
+A mobile-first route dashboard for managing and choosing bike routes.  
+It stores routes locally, supports distance and duration filters, route import/export, and a roulette-style selector for deciding the next ride.
+
+[View repository](https://github.com/timbornemann/Routen-Dash)
